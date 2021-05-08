@@ -1,0 +1,67 @@
+@import "variables";
+@import "utilities";
+@import "navbar";
+@import "hero";
+@import "footer";
+@import "media";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+// ul {
+//   display: inline-block;
+//   align-items: center;
+//   justify-content: center;
+//   text-align: center;
+//   & li {
+//     display: inline;
+//     & a {
+//     color: #191919;
+//     text-decoration: none;
+//     }
+//   }
+// }
+
+// nav {
+//   background-color: #fff;
+//   border-bottom: 1px solid #e2e2e2;
+//     &.nav-links {
+//       display: inline;
+//       & a {
+//         text-decoration: none;
+//       }
+//     }
+//   }
+
+// .hero {
+//   // content: "";
+//   background-image: url(assets/images/space-rocket.jpg);
+// }
+
+.empty {
+  height: 200vh;
+}
+
+// .anchor {
+//   display: flex;
+//   flex-direction: column;
+//   background-color: aqua;
+//   margin: auto;
+//   width: 100%;
+// }
+
+.anchor {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  font-size: 3rem;
+  text-align: center;
+}
